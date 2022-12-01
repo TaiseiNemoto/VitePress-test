@@ -14,37 +14,7 @@ export default {
 					{ text: 'React', link: '/react/' },
 					{ text: 'Vue', link: '/vue/' }
 				],
-			},
-			{
-				text: '公式リンク',
-				items: [
-					{
-						text: 'VitePress',
-						link: 'https://vitepress.vuejs.org',
-					},
-					{
-						text: 'Vite',
-						link: 'https://vitejs.dev/',
-					},
-					{
-						text: 'Vue',
-						link: 'https://v3.ja.vuejs.org/',
-					},
-					{
-						text: 'github pages',
-						link: 'https://docs.github.com/ja/pages/getting-started-with-github-pages/about-github-pages',
-					},
-				],
-			},
-			{
-				text: 'コミュニティ',
-				items: [
-					{
-						text: 'vuejs-jp',
-						link: 'https://vuejs-jp.org/',
-					},
-				],
-			},
+			}
 		],
 		sidebar: {
 			'/home/': [
@@ -54,7 +24,7 @@ export default {
             { text: 'Home', link: '/home/' },
             { text: 'Web Accessibility', link: '/a11y/' },
             { text: 'React', link: '/react/' },
-						{ text: 'Vue', link: '/vue/' }
+						{ text: 'Vue.js', link: '/vue/' }
           ]
         }
       ],
@@ -66,13 +36,23 @@ export default {
           ]
         }
       ],
-      '/React/': [
+      '/react/': [
         {
           text: 'React',
           items: [
-            { text: 'Index', link: '/bar/' },
-            { text: 'One', link: '/bar/one' },
-            { text: 'Two', link: '/bar/two' }
+            { text: 'Index', link: '/react/' },
+            { text: 'One', link: '/react/one' },
+            { text: 'Two', link: '/react/two' }
+          ]
+        }
+      ],
+			'/vue/': [
+        {
+          text: 'Vue.js',
+          items: [
+            { text: 'Index', link: '/vue/' },
+            { text: 'One', link: '/vue/one' },
+            { text: 'Two', link: '/vue/two' }
           ]
         }
       ]
